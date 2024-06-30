@@ -284,9 +284,30 @@ blockquote {
 }
 .fifth {
     background-color: var(--white-color);
-    margin-top: -27px;
+    margin-top: -49px;
     margin-left: -10px;
     margin-right: -70px;
+}
+.faq-h {
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-weight: 300px;
+    font-size: 60px;
+}
+.faq-d {
+    width: 400px;
+    margin: auto;
+}
+.topic {
+    color: #071629;
+    font-family: Saource Sans Pro;
+    font-weight: 700px;
+    font-size: 16px;
+}
+.paragraph {
+    font-size: 14px;
+    font-weight: 400px;
+    font-family: Source Sans Pro;
 }
 footer {
     background-color: var(--dark-purple-color);
