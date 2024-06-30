@@ -267,6 +267,16 @@ blockquote {
 .six {
     display: flex;
     flex-direction: row;
+    width:fit-content;
+    margin: auto;
+}
+.lorem {
+    width: 250px;
+    margin: auto;
+}
+.register {
+    margin-left: 700px;
+    margin-top: 40px;
 }
 .faq {
     display: flex;
