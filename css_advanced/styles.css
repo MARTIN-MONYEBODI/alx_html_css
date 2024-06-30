@@ -158,4 +158,43 @@ h2{
     padding-left: 50px;
 }
 
+.second {
+    background-color: var(--pink-color);
+    margin-left: -10px;
+    margin-right: -70px;
+    height: 392px;
+    display: flex;
+    flex-direction: row;
+}
+.name2 {
+    width: 100px;
+    padding-left: 350px;
+    margin-top: 60px;
+}
+.presenter {
+    padding-left: 40px;
+    font-family: Source Sans Pro;
+    font-weight: 400px;
+    font-style: italic;
+    font-size: 22px;
+    color: var(--white-color);
+}
+.smile1 {
+    padding-left: 40px;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 700px;
+    color: var(--white-color);
+    margin-top: 40px;
+}
+blockquote {
+    font-size: 22px;
+    font-weight: 400px;
+    font-family: Source Sans Pro;
+    color: var(--white-color);
+    margin-top: 60px;
+}
+
+
+
 
