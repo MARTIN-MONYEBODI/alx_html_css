@@ -273,6 +273,7 @@ blockquote {
 .lorem {
     width: 250px;
     margin: auto;
+    color: var(--white-color);
 }
 .register {
     margin-left: 700px;
@@ -311,8 +312,21 @@ blockquote {
 }
 footer {
     background-color: var(--dark-purple-color);
+    margin-right: -70px;
 }
 .last {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:1300px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.socials {
+    color: var(--white-color)
+}
+.lastp {
+    margin-left: 700px;
 }
