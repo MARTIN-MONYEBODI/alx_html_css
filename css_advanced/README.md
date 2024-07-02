@@ -13,7 +13,7 @@ Smile school webpage is a user-friendly website designed to help users how to sm
 
 Screenshots
 
-![Screenshot of the webpage](css_advanced/images/main.jpg)
+![Screenshot of the webpage](images/main.jpg)
 
 Contributing
 
