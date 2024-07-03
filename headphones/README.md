@@ -24,7 +24,7 @@ Contributing
 
 Contacts
 
-Email: headphones@gmail.com
-GitHub: HEADPHONES-TESTING
-LinkedIn: HEADPHONES-TESTING
-Twitter: HEADPHONES-TESTING
+- Email: headphones@gmail.com
+- GitHub: HEADPHONES-TESTING
+- LinkedIn: HEADPHONES-TESTING
+- Twitter: HEADPHONES-TESTING
