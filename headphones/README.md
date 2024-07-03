@@ -13,4 +13,18 @@ Headphones webpage that allows users to test and compare different headphones ba
 
 Screenshots 
 
-![SCREENSHOT OF THE WEBPAGE](images/)
+![Screenshot of the Website](images/Headphones.jpg) 
+
+Contributing
+
+1. Fork the repo
+2. Create a branch (git checkout -b feature-branch)
+3. commit your changes (git commit -m "commit message")
+4. push your changes (git push origin main-branch)
+
+Contacts
+
+Email: headphones@gmail.com
+GitHub: HEADPHONES-TESTING
+LinkedIn: HEADPHONES-TESTING
+Twitter: HEADPHONES-TESTING
