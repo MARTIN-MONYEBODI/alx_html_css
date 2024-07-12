@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white-color: #ffffff;
+    --peach-color: #ff6565;
+    --blavk-color: #071629;
+    --backround-white-color: #f2f2f2;
+    --icon-color: #A8B5C8; 
+}
+body {
+    background-color: var(--backround-white-color);
+    max-width: 100%;
+    margin: auto;
+}
+
+.container {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+
+/*--------------------HEADER--------------------*/
+.header-container {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+div ul {
+    display: flex;
+    align-items: center;
+}
+div ul li {
+    list-style:none ;
+    margin-left: 20px;
+}
+div ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+}
+.logo {
+    max-width: 161px;
+}
+div ul li a:hover {
+    color: var(--peach-color);
+}
+
+.menu_toggle {
+    display: none;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--white-color);
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.bar:nth-child(2) {
+    width: 60%;
+}
+
+.menu_toggle:checked + .hamburger .bar:nth-child(1) {
+    transform: rotate(45deg) translate(-1px, 16px);
+}
+
+.menu_toggle:checked + .hamburger .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu_toggle:checked + .hamburger .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(-1px, -16px);
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+/*--------------------HEADER--------------------*/
+
+ @media (max-width: 480px) {
+    .hamburger {
+        display: flex;
+        position: absolute;
+        left: 20px;
+    }
+
+    .header-container {
+        justify-content: center;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #header-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .menu_toggle:checked ~ div #header-links {
+        display: flex;
+    }
+
+    #header-links li {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+ }
+
+/*-------styling for first section---------*/
+
+#first-section {
+    padding-top: 260px;
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+}  
+#first-h1 {
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+#p1 {
+    font-size: 16px;
+    margin: 0px auto;
+    padding-bottom: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#first-button {
+    background-color: var(--peach-color);
+    color: var(--white-color);
+    font-size: 14px;
+    font: Source Sans Pro;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+}
+.p2 {
+    font-size: 16px;
+    max-width: 1000px;
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+/*--------------------First-section--------------------*/
+
+
+#second-section {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+    align-items: center;
+}
+
+.what-images {
+    align-items: center;
+    margin: 40px;
+}
+
+.item {
+    margin: 20px;
+}
+
+#third-section {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position-y: -90px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.results {
+    padding: 70px;
+    color: var(--white-color);
+}
+
+.pentagon-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+/*.pentagone {
+    max-width: 200px;
+}
+
+.percentage {
+    margin-top: -130px;
+    font-size: 46px;
+    color: var(--white-color)
+}
+
+.name-p {
+    font-size: 14px;
+    color: var(--white-color);
+}*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+}
+
+form input {
+    border: none;
+    width: 300px;
+    border-bottom: solid black 2px;
+    margin: 30px;
+    outline: none;
+}
+
+.name, .email {
+    margin-left: -260px;
+    margin-bottom: -5px;
+    color: var(--blavk-color);
+}
+
+.message {
+    margin-left: -220px;
+    margin-bottom: -5px;
+}
+
+footer {
+    background-color: var(--blavk-color);
+}
+.last {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:1000px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.socials {
+    color: var(--white-color)
+}
+.last-p {
+    margin-left: 700px;
+    color:#607591;
+    padding-bottom: 70px;
+    font-size: 12px;
+    font: Source Sans Pro;
+}
+
+.drawing {
+    width: 200px;
+    height: 200px;
+    background: var(--peach-color);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-family: Source Sans Pro;
+    text-align: center;
+}
+
+.percentage {
+    position: absolute;
+    font-size: 46px;
+}
+
+.name-p {
+    margin-bottom: -60px;
+    font-size: 14px;
+} 
